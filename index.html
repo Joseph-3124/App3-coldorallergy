@@ -99,65 +99,65 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
  	
 	<p>THIS CODE SHOULD NOT BE USED TO DIAGNOSE ANY KIND OF MEDICAL CONDITION.</p>
 
-<div class="page" id="one">
+<div class="page" id="one">		<!--Created page 1 -->
 	<div id="header" class="w3-container w3-flat-carrot">
 		<h1>Question 1</h1>
 	</div>
 	
     	<div id="content" class="w3-container">
-        <p>Are your eyes watery or itchy?</p>   
-	<a href="#two" onclick="allergyAdd();" class="w3-btn w3-black"> Yes</a>
-	<a href="#two" onclick="coldAdd();" class="w3-btn w3-black"> No</a>
+        <p>Are your eyes watery or itchy?</p>		<!-- This is my first question --> 
+	<a href="#two" onclick="allergyAdd();" class="w3-btn w3-black"> Yes</a>		<!-- This is the yes button, which registers the answer to add to the allegery count -->
+	<a href="#two" onclick="coldAdd();" class="w3-btn w3-black"> No</a>		<!-- This is the no button, registered to add to the cold count -->
     	</div><!--/content-->
 </div>
 
-<div class="page" id="two">
+<div class="page" id="two">		<!-- Created page 2 -->
 	<div class="w3-container w3-flat-carrot">
-		<h1>Question 2</h1>
+		<h1>Question 2</h1>	
 	</div>
 	
 	<div id="content" class="w3-container">
-		<p>Do you have a fever?</p>
-		<a href="#three" onclick="coldAdd();" class="w3-btn w3-black"> Yes</a>
-		<a href="#three" onclick="allergyAdd();" class="w3-btn w3-black"> No</a>
+		<p>Do you have a fever?</p>		<!-- This is my second question -->
+		<a href="#three" onclick="coldAdd();" class="w3-btn w3-black"> Yes</a>		<!-- This is the yes button, which registers the answer to add to the cold count -->
+		<a href="#three" onclick="allergyAdd();" class="w3-btn w3-black"> No</a>	<!-- This is the no button, which registers the answer to add to the allegery count -->
 	</div><!--/content-->
 </div>	
 	
-<div class="page" id="three">
+<div class="page" id="three">		<!-- Created page 3 -->
 	<div class="w3-container w3-flat-carrot">
-		<h1>Question 3</h1>
+		<h1>Question 3</h1>		<!-- header changed to show the current question number -->
 	</div>
 	
 	<div id="content" class="w3-container">
-		<p>Do you have a sore throat?</p>
-		<a href="#four" onclick="coldAdd();" class="w3-btn w3-black"> Yes</a>
-		<a href="#four" onclick="allergyAdd();" class="w3-btn w3-black"> No</a>
+		<p>Do you have a sore throat?</p>		<!-- This is my third question -->
+		<a href="#four" onclick="coldAdd();" class="w3-btn w3-black"> Yes</a>	<!-- This is the yes button, which registers the answer to add to the cold count -->
+		<a href="#four" onclick="allergyAdd();" class="w3-btn w3-black"> No</a>	<!-- This is the no button, which registers the answer to add to the allegery count -->
 	</div><!--/content-->
 		
-<div class="page" id="four">
+<div class="page" id="four">		<!-- Created page 4 -->
 	<div class="w3-container w3-flat-carrot">
-		<h1>Question 4</h1>
+		<h1>Question 4</h1>		<!-- header changed to show the current question number -->
 	</div>
 	
     	<div id="content" class="w3-container">
-        <p>Are your symptoms seasonal or chronic?</p>   
-	<a href="#five" onclick="allergyAdd();" class="w3-btn w3-black"> Yes</a>
-	<a href="#five" onclick="coldAdd();" class="w3-btn w3-black"> No</a>
+        <p>Are your symptoms seasonal or chronic?</p>   	<!-- This is my fourth question -->
+	<a href="#five" onclick="allergyAdd();" class="w3-btn w3-black"> Yes</a>	<!-- This is the yes button, which registers the answer to add to the allegery count -->
+	<a href="#five" onclick="coldAdd();" class="w3-btn w3-black"> No</a>		<!-- This is the no button, which registers the answer to add to the cold count -->
     	</div><!--/content-->
 	
-<div class="page" id="five"> 
+<div class="page" id="five"> 		<!-- Created page 5 -->
 <div id="content" class="w3-container">
-	<p>		<p>
-	<a href="#six" onclick="results();" class="w3-btn w3-black w3-"> Click here to find reults!</a>
+	<p>		<p> 
+	<a href="#six" onclick="results();" class="w3-btn w3-black w3-"> Click here to find reults!</a>	<!-- button to lead to new page showing results -->
 	</div>
 	
-<div class="page" id="six">
+<div class="page" id="six">		<!-- Created page 6 -->
 	<div class="w3-container w3-flat-carrot">
-		<h1>Results</h1>
+		<h1>Results</h1>	<!-- header changed to show the results page -->
 	
 	</div>
 <div id="content" class="w3-container">
-	<p id="resultspage">Here are your results</p>
+	<p id="resultspage">Here are your results</p>		<!-- results shown under here -->
 	</div>
 
 
